@@ -4,5 +4,5 @@ RUN npm install -g @vue/cli
 COPY package.json /app
 COPY . .
 RUN npm install
-EXPOSE 8080
-CMD [ "npm", "run", "serve" ]
+#EXPOSE 8080
+#CMD [ "npm", "run", "serve" ]
